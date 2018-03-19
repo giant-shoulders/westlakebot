@@ -2,3 +2,4 @@
 .DS_Store*
 .hubot_history
 *.log
+.env

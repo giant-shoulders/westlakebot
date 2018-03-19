@@ -1,0 +1,397 @@
+export default [{
+  level: 1,
+  exp: 0,
+  difference: 0,
+}, {
+  level: 2,
+  exp: 83,
+  difference: 83,
+}, {
+  level: 3,
+  exp: 174,
+  difference: 91,
+}, {
+  level: 4,
+  exp: 276,
+  difference: 102,
+}, {
+  level: 5,
+  exp: 388,
+  difference: 112,
+}, {
+  level: 6,
+  exp: 512,
+  difference: 124,
+}, {
+  level: 7,
+  exp: 650,
+  difference: 138,
+}, {
+  level: 8,
+  exp: 801,
+  difference: 151,
+}, {
+  level: 9,
+  exp: 969,
+  difference: 168,
+}, {
+  level: 10,
+  exp: 1154,
+  difference: 185,
+}, {
+  level: 11,
+  exp: 1358,
+  difference: 204,
+}, {
+  level: 12,
+  exp: 1584,
+  difference: 226,
+}, {
+  level: 13,
+  exp: 1833,
+  difference: 249,
+}, {
+  level: 14,
+  exp: 2107,
+  difference: 274,
+}, {
+  level: 15,
+  exp: 2411,
+  difference: 304,
+}, {
+  level: 16,
+  exp: 2746,
+  difference: 335,
+}, {
+  level: 17,
+  exp: 3115,
+  difference: 369,
+}, {
+  level: 18,
+  exp: 3523,
+  difference: 408,
+}, {
+  level: 19,
+  exp: 3973,
+  difference: 450,
+}, {
+  level: 20,
+  exp: 4470,
+  difference: 497,
+}, {
+  level: 21,
+  exp: 5018,
+  difference: 548,
+}, {
+  level: 22,
+  exp: 5624,
+  difference: 606,
+}, {
+  level: 23,
+  exp: 6291,
+  difference: 667,
+}, {
+  level: 24,
+  exp: 7028,
+  difference: 737,
+}, {
+  level: 25,
+  exp: 7842,
+  difference: 814,
+}, {
+  level: 26,
+  exp: 8740,
+  difference: 898,
+}, {
+  level: 27,
+  exp: 9730,
+  difference: 990,
+}, {
+  level: 28,
+  exp: 10824,
+  difference: 1094,
+}, {
+  level: 29,
+  exp: 12031,
+  difference: 1207,
+}, {
+  level: 30,
+  exp: 13363,
+  difference: 1332,
+}, {
+  level: 31,
+  exp: 14833,
+  difference: 1470,
+}, {
+  level: 32,
+  exp: 16456,
+  difference: 1623,
+}, {
+  level: 33,
+  exp: 18247,
+  difference: 1791,
+}, {
+  level: 34,
+  exp: 20224,
+  difference: 1977,
+}, {
+  level: 35,
+  exp: 22406,
+  difference: 2182,
+}, {
+  level: 36,
+  exp: 24815,
+  difference: 2409,
+}, {
+  level: 37,
+  exp: 27473,
+  difference: 2658,
+}, {
+  level: 38,
+  exp: 30408,
+  difference: 2935,
+}, {
+  level: 39,
+  exp: 33648,
+  difference: 3240,
+}, {
+  level: 40,
+  exp: 37224,
+  difference: 3576,
+}, {
+  level: 41,
+  exp: 41171,
+  difference: 3947,
+}, {
+  level: 42,
+  exp: 45529,
+  difference: 4358,
+}, {
+  level: 43,
+  exp: 50339,
+  difference: 4810,
+}, {
+  level: 44,
+  exp: 55649,
+  difference: 5310,
+}, {
+  level: 45,
+  exp: 61512,
+  difference: 5863,
+}, {
+  level: 46,
+  exp: 67983,
+  difference: 6471,
+}, {
+  level: 47,
+  exp: 75127,
+  difference: 7144,
+}, {
+  level: 48,
+  exp: 83014,
+  difference: 7887,
+}, {
+  level: 49,
+  exp: 91721,
+  difference: 8707,
+}, {
+  level: 50,
+  exp: 101333,
+  difference: 9612,
+}, {
+  level: 51,
+  exp: 111945,
+  difference: 10612,
+}, {
+  level: 52,
+  exp: 123660,
+  difference: 11715,
+}, {
+  level: 53,
+  exp: 136594,
+  difference: 12934,
+}, {
+  level: 54,
+  exp: 150872,
+  difference: 14278,
+}, {
+  level: 55,
+  exp: 166636,
+  difference: 15764,
+}, {
+  level: 56,
+  exp: 184040,
+  difference: 17404,
+}, {
+  level: 57,
+  exp: 203254,
+  difference: 19214,
+}, {
+  level: 58,
+  exp: 224466,
+  difference: 21212,
+}, {
+  level: 59,
+  exp: 247886,
+  difference: 23420,
+}, {
+  level: 60,
+  exp: 273742,
+  difference: 25856,
+}, {
+  level: 61,
+  exp: 302288,
+  difference: 28546,
+}, {
+  level: 62,
+  exp: 333804,
+  difference: 31516,
+}, {
+  level: 63,
+  exp: 368599,
+  difference: 34795,
+}, {
+  level: 64,
+  exp: 407015,
+  difference: 38416,
+}, {
+  level: 65,
+  exp: 449428,
+  difference: 42413,
+}, {
+  level: 66,
+  exp: 496254,
+  difference: 46826,
+}, {
+  level: 67,
+  exp: 547953,
+  difference: 51699,
+}, {
+  level: 68,
+  exp: 605032,
+  difference: 57079,
+}, {
+  level: 69,
+  exp: 668051,
+  difference: 63019,
+}, {
+  level: 70,
+  exp: 737627,
+  difference: 69576,
+}, {
+  level: 71,
+  exp: 814445,
+  difference: 76818,
+}, {
+  level: 72,
+  exp: 899257,
+  difference: 84812,
+}, {
+  level: 73,
+  exp: 992895,
+  difference: 93638,
+}, {
+  level: 74,
+  exp: 1096278,
+  difference: 103383,
+}, {
+  level: 75,
+  exp: 1210421,
+  difference: 114143,
+}, {
+  level: 76,
+  exp: 1336443,
+  difference: 126022,
+}, {
+  level: 77,
+  exp: 1475581,
+  difference: 139138,
+}, {
+  level: 78,
+  exp: 1629200,
+  difference: 153619,
+}, {
+  level: 79,
+  exp: 1798808,
+  difference: 169608,
+}, {
+  level: 80,
+  exp: 1986068,
+  difference: 187260,
+}, {
+  level: 81,
+  exp: 2192818,
+  difference: 206750,
+}, {
+  level: 82,
+  exp: 2421087,
+  difference: 228269,
+}, {
+  level: 83,
+  exp: 2673114,
+  difference: 252027,
+}, {
+  level: 84,
+  exp: 2951373,
+  difference: 278259,
+}, {
+  level: 85,
+  exp: 3258594,
+  difference: 307221,
+}, {
+  level: 86,
+  exp: 3597792,
+  difference: 339198,
+}, {
+  level: 87,
+  exp: 3972294,
+  difference: 374502,
+}, {
+  level: 88,
+  exp: 4385776,
+  difference: 413482,
+}, {
+  level: 89,
+  exp: 4842295,
+  difference: 456519,
+}, {
+  level: 90,
+  exp: 5346332,
+  difference: 504037,
+}, {
+  level: 91,
+  exp: 5902831,
+  difference: 556499,
+}, {
+  level: 92,
+  exp: 6517253,
+  difference: 614422,
+}, {
+  level: 93,
+  exp: 7195629,
+  difference: 678376,
+}, {
+  level: 94,
+  exp: 7944614,
+  difference: 748985,
+}, {
+  level: 95,
+  exp: 8771558,
+  difference: 826944,
+}, {
+  level: 96,
+  exp: 9684577,
+  difference: 913019,
+}, {
+  level: 97,
+  exp: 10692629,
+  difference: 1008052,
+}, {
+  level: 98,
+  exp: 11805606,
+  difference: 1112977,
+}, {
+  level: 99,
+  exp: 13034431,
+  difference: 1228825,
+}];
