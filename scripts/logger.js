@@ -7,7 +7,7 @@ module.exports = robot => {
       const [, ...commandParts] = text.split(' ');
       const command = commandParts.join(' ');
 
-      robot.messageChannel(logChannel, `${user.name}: ${command}`);
+      context.response.messageChannel(logChannel, `${user.name}: ${command}`);
 
       next();
     });
