@@ -2,9 +2,19 @@ module.exports = robot => {
   const logChannel = process.env.HUBOT_LOG_CHANNEL;
 
   if (logChannel) {
-    robot.listenerMiddleware((context, next, done) => {
-      const { user, text } = context.response.message;
-      robot.messageRoom(logChannel, `${user.name}: ${text}`);
+    robot.receiveMiddleware((context, next, done) => {
+      const { user, text, room } = context.response.message;
+
+      if (text && room !== logChannel && text.match(robot.respondPattern(''))) {
+        robot.messageRoom(
+          logChannel,
+          `${user.name}: ${text
+            .split(' ')
+            .slice(1)
+            .join(' ')}`
+        );
+      }
+
       next();
     });
   }
