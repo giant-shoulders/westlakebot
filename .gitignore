@@ -3,3 +3,4 @@
 .hubot_history
 *.log
 .env
+package-lock.json
