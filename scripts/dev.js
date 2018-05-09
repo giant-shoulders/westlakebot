@@ -6,4 +6,4 @@ module.exports = robot => {
   robot.hear(/my id/i, res => {
     res.reply(res.envelope.user.id);
   });
-}
+};
