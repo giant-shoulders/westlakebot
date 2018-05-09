@@ -4,9 +4,7 @@ module.exports = robot => {
   if (logChannel) {
     robot.listenerMiddleware((context, next, done) => {
       const { user, text } = context.response.message;
-
-      context.response.messageChannel(logChannel, `${user.name}: ${text}`);
-
+      robot.messageChannel(logChannel, `${user.name}: ${text}`);
       next();
     });
   }
