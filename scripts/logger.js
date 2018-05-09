@@ -4,10 +4,8 @@ module.exports = robot => {
   if (logChannel) {
     robot.listenerMiddleware((context, next, done) => {
       const { user, text } = context.response.message;
-      const [, ...commandParts] = text.split(' ');
-      const command = commandParts.join(' ');
 
-      context.response.messageChannel(logChannel, `${user.name}: ${command}`);
+      context.response.messageChannel(logChannel, `${user.name}: ${text}`);
 
       next();
     });
