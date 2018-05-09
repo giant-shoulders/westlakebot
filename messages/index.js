@@ -1,0 +1,1 @@
+exports.impossible = require('./impossible');
