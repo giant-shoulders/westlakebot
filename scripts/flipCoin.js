@@ -89,6 +89,6 @@ module.exports = robot => {
       );
     }
 
-    res.reply({ attachments: [attachment] });
+    res.send({ attachments: [attachment] });
   });
 };
