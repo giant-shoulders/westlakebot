@@ -8,7 +8,7 @@ module.exports = robot => {
       if (text && room !== logChannel && text.match(robot.respondPattern(''))) {
         robot.messageRoom(
           logChannel,
-          `${user.name}: ${text
+          `<@${user.id}>: ${text
             .split(' ')
             .slice(1)
             .join(' ')}`
