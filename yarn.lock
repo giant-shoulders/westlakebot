@@ -161,12 +161,6 @@ coffee-script@1.6.3:
   version "1.6.3"
   resolved "https://registry.yarnpkg.com/coffee-script/-/coffee-script-1.6.3.tgz#6355d32cf1b04cdff6b484e5e711782b2f0c39be"
 
-coffee-script@~1.7:
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/coffee-script/-/coffee-script-1.7.1.tgz#62996a861780c75e6d5069d13822723b73404bfc"
-  dependencies:
-    mkdirp "~0.3.5"
-
 colors@1.0.x:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/colors/-/colors-1.0.3.tgz#0433f44d809680fdeb60ed260f1b0c262e82a40b"
@@ -584,13 +578,6 @@ hubot-slack@^4.4.0:
     "@slack/client" "^3.4.0"
     lodash "^3.10.1"
 
-hubot-tell@^1.2.4:
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/hubot-tell/-/hubot-tell-1.2.4.tgz#0cfb3965308b99c2ddd88031f0ea0a209191af2b"
-  dependencies:
-    coffee-script "~1.7"
-    timeago "~0.1"
-
 hubot@^2.19.0:
   version "2.19.0"
   resolved "https://registry.yarnpkg.com/hubot/-/hubot-2.19.0.tgz#87c572d210fb0d5f89f756177ae0020d49ffba36"
@@ -742,10 +729,6 @@ mkdirp@0.5.1:
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   dependencies:
     minimist "0.0.8"
-
-mkdirp@~0.3.5:
-  version "0.3.5"
-  resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.3.5.tgz#de3e5f8961c88c787ee1368df849ac4413eca8d7"
 
 morgan@~1.6.1:
   version "1.6.1"
@@ -1072,10 +1055,6 @@ strip-ansi@^3.0.0:
 supports-color@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
-
-timeago@~0.1:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/timeago/-/timeago-0.1.0.tgz#21176a84d469be35ee431c5c48c0b6aba1f72464"
 
 tough-cookie@~2.3.0:
   version "2.3.4"
