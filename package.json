@@ -5,6 +5,7 @@
   "author": "Alex Howard <alex.howard@moserit.com>",
   "description": " ",
   "dependencies": {
+    "cross-env": "^5.1.5",
     "dotenv": "^5.0.1",
     "hubot": "^2.19.0",
     "hubot-google-translate": "^0.2.1",
