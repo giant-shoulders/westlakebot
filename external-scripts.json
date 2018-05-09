@@ -2,5 +2,6 @@
   "hubot-google-translate",
   "hubot-help",
   "hubot-redis-brain",
-  "hubot-rules"
+  "hubot-rules",
+  "hubot-tell"
 ]

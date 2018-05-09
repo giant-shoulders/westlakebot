@@ -161,6 +161,12 @@ coffee-script@1.6.3:
   version "1.6.3"
   resolved "https://registry.yarnpkg.com/coffee-script/-/coffee-script-1.6.3.tgz#6355d32cf1b04cdff6b484e5e711782b2f0c39be"
 
+coffee-script@~1.7:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/coffee-script/-/coffee-script-1.7.1.tgz#62996a861780c75e6d5069d13822723b73404bfc"
+  dependencies:
+    mkdirp "~0.3.5"
+
 colors@1.0.x:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/colors/-/colors-1.0.3.tgz#0433f44d809680fdeb60ed260f1b0c262e82a40b"
@@ -547,14 +553,6 @@ https-proxy-agent@^1.0.0:
     debug "2"
     extend "3"
 
-hubot-diagnostics@0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/hubot-diagnostics/-/hubot-diagnostics-0.0.2.tgz#a042b2cdc9fd8f01583e105658130a6d8b9af386"
-
-hubot-google-images@^0.2.7:
-  version "0.2.7"
-  resolved "https://registry.yarnpkg.com/hubot-google-images/-/hubot-google-images-0.2.7.tgz#a8a1f9094d76830bf1931770888fab0dc0c11a4d"
-
 hubot-google-translate@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/hubot-google-translate/-/hubot-google-translate-0.2.1.tgz#3f496c7f2c20994d594b4b75183898e2b627bb7e"
@@ -562,18 +560,6 @@ hubot-google-translate@^0.2.1:
 hubot-help@^0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/hubot-help/-/hubot-help-0.2.2.tgz#cea17e782ce776b743f65393935b3430c2e8197c"
-
-hubot-heroku-keepalive@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/hubot-heroku-keepalive/-/hubot-heroku-keepalive-1.0.3.tgz#2950e28095ee4a6ace2b76f90e2a91ba91e6813c"
-
-hubot-maps@0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/hubot-maps/-/hubot-maps-0.0.3.tgz#c8fc5b0348754e62616d5b99b2bf3904c5ee583c"
-
-hubot-pugme@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/hubot-pugme/-/hubot-pugme-0.1.1.tgz#bbf3b993831516c814f569cf0f05313fb9a31458"
 
 hubot-redis-brain@0.0.4:
   version "0.0.4"
@@ -591,16 +577,19 @@ hubot-scripts@^2.17.2:
   dependencies:
     redis "0.8.4"
 
-hubot-shipit@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/hubot-shipit/-/hubot-shipit-0.2.1.tgz#4fbc9e161953bf7901fdc36e2a702c13103f16b2"
-
 hubot-slack@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/hubot-slack/-/hubot-slack-4.4.0.tgz#5b71fd4ca39938f748252f2e35f5d2f42eafdc2e"
   dependencies:
     "@slack/client" "^3.4.0"
     lodash "^3.10.1"
+
+hubot-tell@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/hubot-tell/-/hubot-tell-1.2.4.tgz#0cfb3965308b99c2ddd88031f0ea0a209191af2b"
+  dependencies:
+    coffee-script "~1.7"
+    timeago "~0.1"
 
 hubot@^2.19.0:
   version "2.19.0"
@@ -753,6 +742,10 @@ mkdirp@0.5.1:
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   dependencies:
     minimist "0.0.8"
+
+mkdirp@~0.3.5:
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.3.5.tgz#de3e5f8961c88c787ee1368df849ac4413eca8d7"
 
 morgan@~1.6.1:
   version "1.6.1"
@@ -1079,6 +1072,10 @@ strip-ansi@^3.0.0:
 supports-color@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
+
+timeago@~0.1:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/timeago/-/timeago-0.1.0.tgz#21176a84d469be35ee431c5c48c0b6aba1f72464"
 
 tough-cookie@~2.3.0:
   version "2.3.4"
